@@ -1,0 +1,48 @@
+{
+  "name": "nativescript-compass",
+  "version": "1.0.0",
+  "description": "A NativeScript plugin for compass functionality with native performance optimization",
+  "main": "nativescript-compass",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "id": "org.nativescript.compass",
+    "platforms": {
+      "android": "8.0.0",
+      "ios": "8.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modos189/nativescript-compass.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf *.js *.js.map *.d.ts !index.d.ts node_modules package-lock.json && npm i",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "compass",
+    "magnetometer",
+    "gyroscope",
+    "navigation"
+  ],
+  "bugs": {
+    "url": "https://github.com/modos189/nativescript-compass/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/modos189/nativescript-compass",
+  "devDependencies": {
+    "@nativescript/core": "^8.0.0",
+    "@nativescript/types": "^8.0.0",
+    "typescript": "^4.9.0",
+    "rimraf": "^3.0.0",
+    "semver": "^7.3.0",
+    "ncp": "^2.0.0"
+  },
+  "dependencies": {},
+  "bootstrapper": "nativescript-plugin-seed"
+}

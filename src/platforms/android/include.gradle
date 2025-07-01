@@ -1,0 +1,7 @@
+
+
+// Plugin configuration for Android platform
+
+dependencies {
+    // No additional dependencies needed for compass functionality
+}

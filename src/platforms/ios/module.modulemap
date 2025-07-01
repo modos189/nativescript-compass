@@ -1,0 +1,4 @@
+module CompassHelper {
+    header "CompassHelper-Swift.h"
+    export *
+}

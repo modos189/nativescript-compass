@@ -237,6 +237,22 @@ const lowPowerOptions = {
 };
 ```
 
+## Screenshots
+
+<details>
+<summary>Android</summary>
+
+![Android](screenshots/android.png)
+
+</details>
+
+<details>
+<summary>iOS</summary>
+
+![iOS](screenshots/ios.jpg)
+
+</details>
+
 ## Platform Differences
 
 ### Android

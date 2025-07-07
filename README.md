@@ -1,5 +1,8 @@
 # NativeScript Compass Plugin
 
+[![npm](https://img.shields.io/npm/v/nativescript-compass.svg)](https://www.npmjs.com/package/nativescript-compass)
+[![npm](https://img.shields.io/npm/dt/nativescript-compass.svg)](https://www.npmjs.com/package/nativescript-compass)
+
 A NativeScript plugin that provides native compass functionality for both Android and iOS platforms. The plugin uses native sensor fusion algorithms and optimizes performance by minimizing JavaScript ↔ Native bridge calls.
 
 ## Features

@@ -1,0 +1,24 @@
+{
+  "name": "nativescript-compass-demo",
+  "version": "1.0.0",
+  "description": "Demo app for nativescript-compass plugin",
+  "main": "app/app.js",
+  "scripts": {
+    "run:android": "ns run android",
+    "build:android": "ns build android",
+    "run:ios": "ns run ios",
+    "build:ios": "ns build ios",
+    "clean": "ns clean"
+  },
+  "dependencies": {
+    "@nativescript/core": "^8.0.0",
+    "@nativescript/theme": "^3.0.0",
+    "nativescript-compass": "file:../src"
+  },
+  "devDependencies": {
+    "@nativescript/android": "^8.0.0",
+    "@nativescript/ios": "^8.0.0",
+    "@nativescript/webpack": "^5.0.0",
+    "typescript": "^4.0.0"
+  }
+}

@@ -1,0 +1,43 @@
+<Page loaded="onLoaded" unloaded="onUnloaded" class="page">
+    <ActionBar title="Compass Demo" class="action-bar" />
+
+    <GridLayout rows="*, auto, auto" class="p-20">
+
+        <!-- Compass Container -->
+        <StackLayout row="0" class="compass-container">
+            <Label text="NativeScript Compass Demo" class="h1 text-center" />
+
+            <!-- Compass Circle -->
+            <GridLayout class="compass-circle" width="250" height="250"
+                       borderRadius="125" borderWidth="3" borderColor="#333">
+
+                <!-- North indicator -->
+                <Label text="N" class="compass-cardinal north" />
+                <Label text="E" class="compass-cardinal east" />
+                <Label text="S" class="compass-cardinal south" />
+                <Label text="W" class="compass-cardinal west" />
+
+                <!-- Compass needle -->
+                <StackLayout class="compass-needle" id="needle">
+                    <Label text="▲" class="needle-north" />
+                    <Label text="▼" class="needle-south" />
+                </StackLayout>
+
+            </GridLayout>
+
+            <!-- Heading display -->
+            <Label text="{{ headingText }}" class="heading-text" />
+            <Label text="{{ accuracyText }}" class="accuracy-text" />
+        </StackLayout>
+
+        <!-- Controls -->
+        <StackLayout row="1" orientation="horizontal" horizontalAlignment="center" class="m-20">
+            <Button text="{{ startButtonText }}" tap="toggleCompass" class="btn btn-primary m-5" />
+            <Button text="Get Single Reading" tap="getSingleReading" class="btn btn-outline m-5" />
+        </StackLayout>
+
+        <!-- Status -->
+        <Label row="2" text="{{ statusText }}" class="status-text text-center" wordWrap="true" />
+
+    </GridLayout>
+</Page>

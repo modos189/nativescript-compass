@@ -1,6 +1,6 @@
 {
   "name": "nativescript-compass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NativeScript plugin for compass functionality with native performance optimization",
   "main": "nativescript-compass",
   "typings": "index.d.ts",

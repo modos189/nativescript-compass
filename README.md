@@ -249,7 +249,7 @@ const lowPowerOptions = {
 <details>
 <summary>iOS</summary>
 
-![iOS](screenshots/ios.jpg)
+![iOS](screenshots/ios.png)
 
 </details>
 
